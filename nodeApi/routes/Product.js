@@ -13,7 +13,7 @@ router.get('/',async(req,res) => {
   }
 });
 
-//
+// comments to be added
 router.get('/:id',async(req,res) => {
   try {
     const product = await Product.findById(req.params.id);
